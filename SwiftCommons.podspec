@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.dependency 'Reactored'
 
   # reactive
-  s.dependency 'RxSwift', '~> 4'
-  s.dependency 'RxGesture', '~> 1.2'
-  s.dependency 'RxDataSources', '~> 3.0'
+  s.dependency 'RxSwift'
+  s.dependency 'RxGesture'
+  s.dependency 'RxDataSources'
 
   # network
   s.dependency 'Alamofire'
-  s.dependency 'Moya/RxSwift', '~> 10.0'
+  s.dependency 'Moya/RxSwift'
 
   # json
   s.dependency 'ObjectMapper'
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.dependency 'Alertift'
 
   # mortar
-  s.dependency 'Mortar/MortarVFL', '~> 1.4'
+  s.dependency 'Mortar/MortarVFL'
 
   # notification
   s.dependency 'SwiftMessages'
